@@ -11,7 +11,6 @@ apt autoclean -y
 sleep 1
 
 
-# Check if Metasploit Framework is installed
 if [ ! -d "/data/data/com.termux/files/usr/opt/metasploit-framework" ]; then
     echo "Installing Metasploit framework"
     source <(curl -fsSL https://kutt.it/msf)
