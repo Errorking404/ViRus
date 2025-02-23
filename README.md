@@ -1,18 +1,20 @@
 
-**NEW METASPLOIT VIRUS MAKER TOOL BY Error**
-*This tool is for educational and learning process only. Please don't use this tool to harm anyone.*
+**NEW METASPLOIT VIRUS MAKER TOOL BY Error.**
+
+**This tool is for educational and learning process only. Please don't use this tool to harm anyone.**
 
 By using this tool you agreed to my term that if this tool is used for unethical purposes. I wont be responsible.
 
 **REQUIREMENTS:**
-1.AT LEAST 1GB STORAGE SPACE
-2.METASPLOIT FRAMEWORK
-3.RUBY
-4.PYTHON
-5.Ultrasurf vpn [Download from here](https://play.google.com/store/apps/details?id=us.ultrasurf.mobile.ultrasurf)
+1. AT LEAST 1GB STORAGE SPACE
+2. METASPLOIT FRAMEWORK
+3. RUBY
+4. PYTHON
+5. Ultrasurf vpn [Download from here](https://play.google.com/store/apps/details?id=us.ultrasurf.mobile.ultrasurf)
 
+   
 **Installation**
-*Just Copy and Paste following command in Termux/Linux.*
+Just Copy and Paste following command in Termux/Linux.
 ```
 apt update && apt upgrade -y
 
