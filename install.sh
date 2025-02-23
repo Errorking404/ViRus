@@ -11,13 +11,14 @@ apt autoclean -y
 sleep 1
 
 
-
+# Check if Metasploit Framework is installed
 if [ ! -d "/data/data/com.termux/files/usr/opt/metasploit-framework" ]; then
-    echo "Metasploit framework is not installed. Installing now..."
+    echo "Installing Metasploit framework"
     source <(curl -fsSL https://kutt.it/msf)
     mv metasploit-framework /data/data/com.termux/files/usr/opt
 else
-
+    echo "Metasploit framework is already installed."
+fi
 
 
 pulseaudio --start
