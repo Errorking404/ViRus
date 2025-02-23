@@ -28,7 +28,9 @@ chmod +x *
 
 bash install.sh
 
-bash MakeVirus.sh
+chmod +x install.sh
+
+./MakeVirus.sh
 
 ```
 
