@@ -22,4 +22,6 @@ espeak "Installation Successful"
 
 sleep 1
 
+chmod +x MakeVirus.sh
+
 echo "Now Run ./MakeVirus.sh"
