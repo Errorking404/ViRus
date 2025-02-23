@@ -1,9 +1,10 @@
 echo "INSTALLATION SCRIPT"
 
 toilet Error
+
 sleep 1
 
-echo "USE ANY VPN"
+
 apt update && apt upgrade -y
 apt install git python ruby php espeak pulseaudio -y
 apt autoclean -y
