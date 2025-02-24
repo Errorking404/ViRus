@@ -1,4 +1,3 @@
-
 **NEW METASPLOIT VIRUS MAKER TOOL BY Error.**
 
 **This tool is for educational and learning process only. Please don't use this tool to harm anyone.**
@@ -11,8 +10,15 @@ By using this tool you agreed to my term that if this tool is used for unethical
 3. RUBY
 4. PYTHON
 5. Ultrasurf vpn [Download from here](https://play.google.com/store/apps/details?id=us.ultrasurf.mobile.ultrasurf)
+6. Alot of patience. 
 
-   
+**NOTE:**
+WAIT FOR AT LEAST 40 TO 50 MINUTES IF YOU ARE RUNNING THIS 1ST TIME.
+
+**MOST IMPORTANT**
+Please Support me. 
+
+
 **Installation**
 Just Copy and Paste following command in Termux/Linux.
 ```
@@ -24,7 +30,7 @@ git clone https://github.com/Errorking404/ViRus.git
 
 cd ViRus
 
-chmod +x *
+chmod +x installmsf.sh
 
 chmod +x install.sh
 
