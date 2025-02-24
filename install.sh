@@ -13,8 +13,8 @@ sleep 1
 
 if [ ! -d "/data/data/com.termux/files/usr/opt/metasploit-framework" ]; then
     echo "Installing Metasploit framework"
-    source <(curl -fsSL https://kutt.it/msf)
-    mv metasploit-framework /data/data/com.termux/files/usr/opt
+    
+    ./installmsf.sh
 else
     echo "Metasploit framework is already installed."
 fi
