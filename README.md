@@ -30,7 +30,6 @@ git clone https://github.com/Errorking404/ViRus.git
 
 cd ViRus
 
-chmod +x installmsf.sh
 
 chmod +x install.sh
 
@@ -38,7 +37,8 @@ bash install.sh
 
 chmod +x MakeVirus.sh
 
-./MakeVirus.sh
+chmod +x MakeVirus_64.sh
+
 
 ```
 

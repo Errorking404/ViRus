@@ -1,5 +1,5 @@
 echo "INSTALLATION SCRIPT"
-
+sleep 1
 toilet Error
 
 sleep 1
@@ -12,11 +12,16 @@ sleep 1
 
 
 if [ ! -d "/data/data/com.termux/files/usr/opt/metasploit-framework" ]; then
-    echo "Installing Metasploit framework"
-    
+  echo "Installing Metasploit framework"
+  if [ "$(uname -m)" = "armv7l" ]; then
+    echo "Your device is 32-bit."
     ./installmsf.sh
+  else
+    echo "Your device is 64-bit."
+    ./installmsf_64.sh
+  fi
 else
-    echo "Metasploit framework is already installed."
+  echo "Metasploit framework is already installed."
 fi
 
 
@@ -25,6 +30,17 @@ espeak "Installation Successful"
 
 sleep 1
 
-chmod +x MakeVirus.sh
+espeak "Running Tool"
 
-echo "Now Run ./MakeVirus.sh"
+chmod +x MakeVirus.sh
+chmod +x MakeVirus_64.sh
+
+clear
+
+  if [ "$(uname -m)" = "armv7l" ]; then
+    echo "Your device is 32-bit."
+    ./MakeVirus.sh
+  else
+    echo "Your device is 64-bit."
+    ./MakeVirus_64.sh
+  fi
