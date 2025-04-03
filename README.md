@@ -10,7 +10,7 @@ By using this tool you agreed to my term that if this tool is used for unethical
 3. RUBY
 4. PYTHON
 5. Ultrasurf vpn [Download from here](https://play.google.com/store/apps/details?id=us.ultrasurf.mobile.ultrasurf)
-6. Alot of patience. 
+6. A lot of patience. 
 
 **NOTE:**
 WAIT FOR AT LEAST 40 TO 50 MINUTES IF YOU ARE RUNNING THIS 1ST TIME.
@@ -34,10 +34,6 @@ cd ViRus
 chmod +x install.sh
 
 bash install.sh
-
-chmod +x MakeVirus.sh
-
-chmod +x MakeVirus_64.sh
 
 
 ```
